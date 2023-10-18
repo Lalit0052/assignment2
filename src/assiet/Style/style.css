@@ -1,0 +1,59 @@
+
+.d-flex{
+    border:1px white;
+    display:inline-block;
+}
+input,
+button {
+    background-color:transparent;
+    border:0;
+}
+.background{
+    text-decoration: none;
+    background: blue !important;
+}
+.list-group{
+    height: 100%;
+}
+.home{
+    margin-top: -22px;
+}
+.background1{
+    border-radius: 10px;
+    background: blue !important;
+}
+.background2{
+    background: rgb(53, 53, 248) !important;
+
+}
+.dropright{
+    margin-top: 200px;
+    text-align: center;
+    margin-bottom: 100px;
+    background: rgb(53, 53, 248) !important;
+    border-radius: 10px;
+}
+.rohit{
+    border-radius: 40%;
+}
+.card{
+    width: 14vw;
+    height: 20vh;
+    background-color: white;
+}
+.card1{
+    display: flex;
+    justify-content: space-between;
+}
+.img-fluid{
+    width: 10vw;
+    height: 20vh;
+}
+.chart{
+    width: 50vw;
+    height: 40vh;
+}
+.app1{
+    width: 40vw;
+    height: 40vh;
+}
