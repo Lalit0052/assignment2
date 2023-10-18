@@ -6,6 +6,9 @@ import pic2 from "../assiet/Image/3.png"
 import pic3 from "../assiet/Image/4.png"
 import Chart from "./chart1"
 import Piechart from './Piechart';
+import pic4 from "../assiet/Image/ab.jpeg"
+import pic5 from "../assiet/Image/ill.jpeg"
+
 
 
 export default function Home() {
@@ -86,11 +89,37 @@ export default function Home() {
             <div className="col-4">
               <div className="App1">
                 <Piechart/>
-
               </div> </div>
             </div>
+            <div className="table">
+              <h3 className='text-center mt-2'>Product Sell</h3>
+              <table className='table'>
+                <thead>
+                <tr>
+                  <th>Product Name</th>
+                  <th>Stock</th>
+                  <th>Price</th>
+                  <th>Total Sales</th>
+                </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><img className='product' src={pic4} width="40px" alt="" />Abstract 3D</td>
+                    <td>32 <small>In Stock</small></td>
+                    <td><strong>$45.99</strong></td>
+                    <td>20</td>
+                  </tr>
+                  
+                  <tr>
+                    <td><img className='product' src={pic5} width="40px" alt="" />Sarphens illustration</td>
+                    <td>32 <small>In Stock</small></td>
+                    <td><strong>$45.99</strong></td>
+                    <td>20</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
-
         </div>
       </div>
     </>

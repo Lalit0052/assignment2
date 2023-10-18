@@ -6,12 +6,12 @@ export default function Leftnav() {
         <>
         <div className="background">
             <div className="list-group " >
-                <Link to="/admin-home" className=" background fs-5 text-light ms-3  "><span className="material-symbols-outlined">dashboard</span>Dashboard <span className="material-symbols-outlined  mt-1">chevron_right</span></Link>
-                <Link to="/admin-user" className=" background fs-5 text-light ms-3  mt-2"><span className="material-symbols-outlined">inventory_2</span>Product <span className="material-symbols-outlined  mt-1">chevron_right</span></Link>
-                <Link to="/admin-maincategory" className=" background fs-5 text-light ms-3  mt-2"><span className="material-symbols-outlined">person_pin</span>Customers <span className="material-symbols-outlined  mt-1">chevron_right</span></Link>
-                <Link to="/admin-subcategory" className=" background fs-5 text-light ms-3  mt-2"><span className="material-symbols-outlined">payments</span>Income <span className="material-symbols-outlined  mt-1">chevron_right</span></Link>
-                <Link to="/admin-Brand" className=" background fs-5 text-light ms-3  mt-2"><span className="material-symbols-outlined">app_promo</span>Promote <span className="material-symbols-outlined  mt-1">chevron_right</span></Link>
-                <Link to="/admin-product" className=" background fs-5 text-light ms-3  mt-2"><span className="material-symbols-outlined">live_help</span>Help <span className="material-symbols-outlined  mt-1">chevron_right</span></Link>
+                <Link to="/" className=" background fs-5 text-light ms-3  "><span className="material-symbols-outlined">dashboard</span>Dashboard <span className="material-symbols-outlined  mt-1">chevron_right</span></Link>
+                <Link to="#" className=" background fs-5 text-light ms-3  mt-2"><span className="material-symbols-outlined">inventory_2</span>Product <span className="material-symbols-outlined  mt-1">chevron_right</span></Link>
+                <Link to="#" className=" background fs-5 text-light ms-3  mt-2"><span className="material-symbols-outlined">person_pin</span>Customers <span className="material-symbols-outlined  mt-1">chevron_right</span></Link>
+                <Link to="#" className=" background fs-5 text-light ms-3  mt-2"><span className="material-symbols-outlined">payments</span>Income <span className="material-symbols-outlined  mt-1">chevron_right</span></Link>
+                <Link to="#" className=" background fs-5 text-light ms-3  mt-2"><span className="material-symbols-outlined">app_promo</span>Promote <span className="material-symbols-outlined  mt-1">chevron_right</span></Link>
+                <Link to="#" className=" background fs-5 text-light ms-3  mt-2"><span className="material-symbols-outlined">live_help</span>Help <span className="material-symbols-outlined  mt-1">chevron_right</span></Link>
                   
                     
                 </div>
