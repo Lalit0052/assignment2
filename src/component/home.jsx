@@ -5,12 +5,9 @@ import pic1 from "../assiet/Image/2.jpg"
 import pic2 from "../assiet/Image/3.png"
 import pic3 from "../assiet/Image/4.png"
 import Chart from "./chart1"
-import DatabaseDiscussionPieChart from './Piechart';
+import Piechart from './Piechart';
 
-const data = [
-  { label: 'old customers', value: 30 },
-  { label: 'new customers', value: 60 }
-];
+
 export default function Home() {
   
   return (
@@ -88,8 +85,7 @@ export default function Home() {
             </div>
             <div className="col-4">
               <div className="App1">
-                <h3 className='text-center'>Customers</h3>
-                <DatabaseDiscussionPieChart data={data} />
+                <Piechart/>
 
               </div> </div>
             </div>
